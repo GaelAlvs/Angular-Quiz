@@ -1,0 +1,26 @@
+<div class="quizz__container">
+  <div class="quizz_logo">
+    <img src="https://i.ytimg.com/vi/r9Jy5mAhzf8/hqdefault.jpg" alt="Logo" />
+    <h3>{{ title }}</h3>
+  </div>
+
+  @if (!finished) {
+  <div class="quizz_questions">
+    <h3>{{ questionSelected.question }}</h3>
+  </div>
+
+  <div class="quizz_options">
+    @for (option of questionSelected.options; track option.id) {
+    <button (click)="playerChoose(option.alias)" class="btn-option">
+      {{ option.name }}
+    </button>
+    }
+  </div>
+  } @if (finished) {
+  <div class="quizz_results">
+    <h1>Você seria:</h1>
+    <p>{{ answerSelected.text }}</p>
+    <img [src]="answerSelected.image" alt="Imagem do resultado" class="result-image" />
+  </div>
+  }
+</div>

@@ -1,0 +1,82 @@
+{
+  "title": "Quem você seria, amigo meu?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Você saiu com um amigo meu no bar, ele bebeu, encheu a cara e arrumou briga com 2 caras, o que você faz ?",
+      "options": [
+        { "id": 1, "name": "Ajudo ele e brigo junto.", "alias": ["A", "B"] },
+        { "id": 2, "name": "Faço nada, pau no cu dele kkkkkkk", "alias": ["C", "D"] },
+        { "id": 3, "name": "Chamo um segurança ou peço ajuda.", "alias": "E" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Um amigo meu tá em depressão, como consolar ele ?",
+      "options": [
+        { "id": 1, "name": "Liga pra ele e fala pra bater um game.", "alias": ["C", "D"] },
+        { "id": 2, "name": "Invade a casa dele e consola pessoalmente.", "alias": ["B", "E"] },
+        { "id": 3, "name": "Chama pra sair.", "alias": "A" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Sua esposa te traiu, aquela imunda do caralho, quais medidas você tomaria ?",
+      "options": [
+        { "id": 1, "name": "Perdoaria mas terminaria.", "alias": ["A", "C"] },
+        {
+          "id": 2,
+          "name": "Perdoaria e dependendo do motivo que levou a trair continuaria com ela.",
+          "alias": "D"
+        },
+        { "id": 3, "name": "Nem perdoaria, só terminaria direto.", "alias": "E" },
+        {
+          "id": 4,
+          "name": "Comeria mais uma vez, só de ódio, antes de terminar de verdade",
+          "alias": "B"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Qual você escolheria para fazer agora ?",
+      "options": [
+        { "id": 1, "name": "Treinar", "alias": "A" },
+        { "id": 2, "name": "Jogar", "alias": "D" },
+        { "id": 3, "name": "Desenhar", "alias": "E" },
+        { "id": 4, "name": "Assistir filme/série", "alias": "B" },
+        { "id": 5, "name": "Dormir", "alias": "C" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Você odeia aquele que não pode ser pronunciado ?",
+      "options": [
+        { "id": 1, "name": "Odeio", "alias": ["A", "B", "E"] },
+        { "id": 2, "name": "Não odeio", "alias": ["D", "C"] }
+      ]
+    }
+  ],
+  "results": {
+    "A": {
+      "text": "Você é um amigo meu chamado Biri!",
+      "image": "assets/imgs/biri.png"
+    },
+    "B": {
+      "text": "Você é um amigo meu chamado Gian!",
+      "image": "assets/imgs/gian.png"
+    },
+    "C": {
+      "text": "Você é um amigo meu chamado Bryan!",
+      "image": "assets/imgs/bryan.png"
+    },
+    "D": {
+      "text": "Você é um amigo meu chamado Vini!",
+      "image": "assets/imgs/vini.png"
+    },
+    "E": {
+      "text": "Você é um amigo meu chamado Guigas!",
+      "image": "assets/imgs/guigas.png"
+    }
+  }
+}
