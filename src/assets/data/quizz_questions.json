@@ -5,7 +5,7 @@
       "id": 1,
       "question": "Você saiu com um amigo meu no bar, ele bebeu, encheu a cara e arrumou briga com 2 caras, o que você faz ? 🍻 ",
       "options": [
-        { "id": 1, "name": "Ajudo ele e brigo junto.", "alias": ["A", "B", "E", "G"] },
+        { "id": 1, "name": "Ajudo ele e brigo junto.", "alias": ["A", "B", "E", "G", "H"] },
         { "id": 2, "name": "Tento separar", "alias": ["C", "D"] },
         { "id": 3, "name": "Chamo um segurança ou peço ajuda.", "alias": "F" }
       ]
@@ -16,14 +16,14 @@
       "options": [
         { "id": 1, "name": "Liga pra ele e fala pra bater um game.", "alias": ["C", "D", "G"] },
         { "id": 2, "name": "Invade a casa dele e consola pessoalmente.", "alias": ["B", "E", "F"] },
-        { "id": 3, "name": "Chama pra sair.", "alias": "A" }
+        { "id": 3, "name": "Chama pra sair.", "alias": ["A", "H"] }
       ]
     },
     {
       "id": 3,
       "question": "Sua esposa te traiu, aquela imunda do caralho, quais medidas você tomaria ? 😡",
       "options": [
-        { "id": 1, "name": "Perdoaria mas terminaria.", "alias": ["A"] },
+        { "id": 1, "name": "Perdoaria mas terminaria.", "alias": "A" },
         {
           "id": 2,
           "name": "Perdoaria por amor.",
@@ -34,7 +34,8 @@
           "id": 4,
           "name": "Comeria mais uma vez, só de ódio, antes de terminar de verdade",
           "alias": ["B", "E"]
-        }
+        },
+        { "id": 6, "name": "Perdoaria com vontade de voltar kkkkkkkkkk", "alias": ["H", "E"] }
       ]
     },
     {
@@ -43,17 +44,18 @@
       "options": [
         { "id": 1, "name": "Skyrim e Diablo", "alias": "A" },
         { "id": 2, "name": "League of Legends e/ou Valorant", "alias": ["D", "G"] },
-        { "id": 3, "name": "Hollow Knight e Brawhalla", "alias": "E" },
+        { "id": 3, "name": "Binding of Isaac e Brawhalla", "alias": "E" },
         { "id": 4, "name": "Hades e The Witcher", "alias": "B" },
         { "id": 5, "name": "Elden Ring e Dark Souls 2", "alias": "C" },
-        { "id": 6, "name": "God of War e Resident Evil", "alias": "F" }
+        { "id": 6, "name": "God of War e Resident Evil", "alias": "F" },
+        { "id": 7, "name": "Factorio e Sea of Thieves", "alias": "H" }
       ]
     },
     {
       "id": 5,
       "question": "Você vê sua esposa sendo CACETADA, o que você faz ? 👨‍💼",
       "options": [
-        { "id": 1, "name": "Participo e mando um a 3.", "alias": ["D", "F", "C"] },
+        { "id": 1, "name": "Participo e mando um a 3.", "alias": ["D", "F", "C", "H", "H"] },
         { "id": 2, "name": "Desmaio o cara e como ele.", "alias": "E" },
         { "id": 3, "name": "Fico na minha.", "alias": ["D", "D", "D"] },
         { "id": 4, "name": "Faço nada e vou embora solteiro", "alias": ["A", "B", "G"] }
@@ -67,8 +69,12 @@
         { "id": 2, "name": "Ruiva", "alias": ["B", "E"] },
         { "id": 3, "name": "Rica kkkkkkk", "alias": ["B", "G"] },
         { "id": 4, "name": "Cacheada", "alias": "F" },
-        { "id": 5, "name": "Morena Gótica / E-girl", "alias": ["E", "D", "C"] },
-        { "id": 6, "name": "Careca kkkkkkkk", "alias": ["X", "X", "X", "X", "X"] }
+        { "id": 5, "name": "Morena Gótica / E-girl", "alias": ["E", "D", "C", "H"] },
+        {
+          "id": 6,
+          "name": "Careca kkkkkkkk",
+          "alias": ["X", "X", "X", "X", "X", "X", "X", "X", "X", "X"]
+        }
       ]
     }
   ],
@@ -104,7 +110,7 @@
       "description": "Falar que você não joga bem 👍  Falar que é frango 😡"
     },
     "X": {
-      "text": "Você não é amigo meu. Você é o que não pode ser pronunciado.",
+      "text": "Você não é amigo meu. Você é meu inimigo!",
       "image": "https://i.ytimg.com/vi/SzFY06p_KDU/sddefault.jpg",
       "description": "Morra miserável 🖕"
     },
@@ -112,6 +118,11 @@
       "text": "Você é um amigo meu chamado Isabella! 🤡",
       "image": "https://www.parents.com/thmb/DnZyklrdOFQqW-Oy1U8TPGgtikc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/isabella-baby-name-b3a16d94460848f790eb48c35799756a.png",
       "description": "Parece um pokémon, só fala desgraça e canta matue kkkkkkkkk"
+    },
+    "H": {
+      "text": "Você é um amigo meu chamado Gana!",
+      "image": "https://i.ytimg.com/vi/SzFY06p_KDU/sddefault.jpg",
+      "description": "Carne fraca"
     }
   }
 }
