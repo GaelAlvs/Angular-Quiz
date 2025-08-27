@@ -5,7 +5,7 @@
       "id": 1,
       "question": "Você saiu com um amigo meu no bar, ele bebeu, encheu a cara e arrumou briga com 2 caras, o que você faz ? 🍻 ",
       "options": [
-        { "id": 1, "name": "Ajudo ele e brigo junto.", "alias": ["A", "B", "E"] },
+        { "id": 1, "name": "Ajudo ele e brigo junto.", "alias": ["A", "B", "E", "G"] },
         { "id": 2, "name": "Tento separar", "alias": ["C", "D"] },
         { "id": 3, "name": "Chamo um segurança ou peço ajuda.", "alias": "F" }
       ]
@@ -14,7 +14,7 @@
       "id": 2,
       "question": "Um amigo meu tá em depressão, como consolar ele ? 😔",
       "options": [
-        { "id": 1, "name": "Liga pra ele e fala pra bater um game.", "alias": ["C", "D"] },
+        { "id": 1, "name": "Liga pra ele e fala pra bater um game.", "alias": ["C", "D", "G"] },
         { "id": 2, "name": "Invade a casa dele e consola pessoalmente.", "alias": ["B", "E", "F"] },
         { "id": 3, "name": "Chama pra sair.", "alias": "A" }
       ]
@@ -29,7 +29,7 @@
           "name": "Perdoaria por amor.",
           "alias": ["C", "D"]
         },
-        { "id": 3, "name": "Nem perdoaria, só terminaria direto.", "alias": "F" },
+        { "id": 3, "name": "Nem perdoaria, só terminaria direto.", "alias": ["F", "G"] },
         {
           "id": 4,
           "name": "Comeria mais uma vez, só de ódio, antes de terminar de verdade",
@@ -42,7 +42,7 @@
       "question": "Quais melhores jogos ? 🎮",
       "options": [
         { "id": 1, "name": "Skyrim e Diablo", "alias": "A" },
-        { "id": 2, "name": "Dark Souls 3 e Bloodborne", "alias": "D" },
+        { "id": 2, "name": "League of Legends e/ou Valorant", "alias": ["D", "G"] },
         { "id": 3, "name": "Hollow Knight e Brawhalla", "alias": "E" },
         { "id": 4, "name": "Hades e The Witcher", "alias": "B" },
         { "id": 5, "name": "Elden Ring e Dark Souls 2", "alias": "C" },
@@ -56,7 +56,7 @@
         { "id": 1, "name": "Participo e mando um a 3.", "alias": ["D", "F", "C"] },
         { "id": 2, "name": "Desmaio o cara e como ele.", "alias": "E" },
         { "id": 3, "name": "Fico na minha.", "alias": ["D", "D", "D"] },
-        { "id": 4, "name": "Faço nada e vou embora solteiro", "alias": ["A", "B"] }
+        { "id": 4, "name": "Faço nada e vou embora solteiro", "alias": ["A", "B", "G"] }
       ]
     },
     {
@@ -65,7 +65,7 @@
       "options": [
         { "id": 1, "name": "Morena", "alias": ["A", "D"] },
         { "id": 2, "name": "Ruiva", "alias": ["B", "E"] },
-        { "id": 3, "name": "Loira", "alias": "A" },
+        { "id": 3, "name": "Rica kkkkkkk", "alias": ["B", "G"] },
         { "id": 4, "name": "Cacheada", "alias": "F" },
         { "id": 5, "name": "Morena Gótica / E-girl", "alias": ["E", "D", "C"] },
         { "id": 6, "name": "Careca kkkkkkkk", "alias": ["X", "X", "X", "X", "X"] }
@@ -107,6 +107,11 @@
       "text": "Você não é amigo meu. Você é o que não pode ser pronunciado.",
       "image": "https://i.ytimg.com/vi/SzFY06p_KDU/sddefault.jpg",
       "description": "Morra miserável 🖕"
+    },
+    "G": {
+      "text": "Você é um amigo meu chamado Isabella! 🤡",
+      "image": "https://www.parents.com/thmb/DnZyklrdOFQqW-Oy1U8TPGgtikc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/isabella-baby-name-b3a16d94460848f790eb48c35799756a.png",
+      "description": "Parece um pokémon, só fala desgraça e canta matue kkkkkkkkk"
     }
   }
 }
