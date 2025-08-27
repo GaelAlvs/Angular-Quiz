@@ -16,6 +16,7 @@ type QuizzQuestion = {
 type QuizzResult = {
   text: string;
   image: string;
+  description: string;
 };
 
 type QuizzData = {
@@ -38,7 +39,7 @@ export class Quiz {
   questions: QuizzQuestion[] = [];
   questionSelected!: QuizzQuestion;
   answers: string[] = [];
-  answerSelected: QuizzResult = { text: '', image: '' };
+  answerSelected: QuizzResult = { text: '', image: '', description: '' };
   questionIndex: number = 0;
   questionMaxIndex: number = 0;
   finished: boolean = false;

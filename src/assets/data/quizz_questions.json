@@ -3,80 +3,110 @@
   "questions": [
     {
       "id": 1,
-      "question": "Você saiu com um amigo meu no bar, ele bebeu, encheu a cara e arrumou briga com 2 caras, o que você faz ?",
+      "question": "Você saiu com um amigo meu no bar, ele bebeu, encheu a cara e arrumou briga com 2 caras, o que você faz ? 🍻 ",
       "options": [
-        { "id": 1, "name": "Ajudo ele e brigo junto.", "alias": ["A", "B"] },
-        { "id": 2, "name": "Faço nada, pau no cu dele kkkkkkk", "alias": ["C", "D"] },
-        { "id": 3, "name": "Chamo um segurança ou peço ajuda.", "alias": "E" }
+        { "id": 1, "name": "Ajudo ele e brigo junto.", "alias": ["A", "B", "E"] },
+        { "id": 2, "name": "Tento separar", "alias": ["C", "D"] },
+        { "id": 3, "name": "Chamo um segurança ou peço ajuda.", "alias": "F" }
       ]
     },
     {
       "id": 2,
-      "question": "Um amigo meu tá em depressão, como consolar ele ?",
+      "question": "Um amigo meu tá em depressão, como consolar ele ? 😔",
       "options": [
         { "id": 1, "name": "Liga pra ele e fala pra bater um game.", "alias": ["C", "D"] },
-        { "id": 2, "name": "Invade a casa dele e consola pessoalmente.", "alias": ["B", "E"] },
+        { "id": 2, "name": "Invade a casa dele e consola pessoalmente.", "alias": ["B", "E", "F"] },
         { "id": 3, "name": "Chama pra sair.", "alias": "A" }
       ]
     },
     {
       "id": 3,
-      "question": "Sua esposa te traiu, aquela imunda do caralho, quais medidas você tomaria ?",
+      "question": "Sua esposa te traiu, aquela imunda do caralho, quais medidas você tomaria ? 😡",
       "options": [
-        { "id": 1, "name": "Perdoaria mas terminaria.", "alias": ["A", "C"] },
+        { "id": 1, "name": "Perdoaria mas terminaria.", "alias": ["A"] },
         {
           "id": 2,
-          "name": "Perdoaria e dependendo do motivo que levou a trair continuaria com ela.",
-          "alias": "D"
+          "name": "Perdoaria por amor.",
+          "alias": ["C", "D"]
         },
-        { "id": 3, "name": "Nem perdoaria, só terminaria direto.", "alias": "E" },
+        { "id": 3, "name": "Nem perdoaria, só terminaria direto.", "alias": "F" },
         {
           "id": 4,
           "name": "Comeria mais uma vez, só de ódio, antes de terminar de verdade",
-          "alias": "B"
+          "alias": ["B", "E"]
         }
       ]
     },
     {
       "id": 4,
-      "question": "Qual você escolheria para fazer agora ?",
+      "question": "Quais melhores jogos ? 🎮",
       "options": [
-        { "id": 1, "name": "Treinar", "alias": "A" },
-        { "id": 2, "name": "Jogar", "alias": "D" },
-        { "id": 3, "name": "Desenhar", "alias": "E" },
-        { "id": 4, "name": "Assistir filme/série", "alias": "B" },
-        { "id": 5, "name": "Dormir", "alias": "C" }
+        { "id": 1, "name": "Skyrim e Diablo", "alias": "A" },
+        { "id": 2, "name": "Dark Souls 3 e Bloodborne", "alias": "D" },
+        { "id": 3, "name": "Hollow Knight e Brawhalla", "alias": "E" },
+        { "id": 4, "name": "Hades e The Witcher", "alias": "B" },
+        { "id": 5, "name": "Elden Ring e Dark Souls 2", "alias": "C" },
+        { "id": 6, "name": "God of War e Resident Evil", "alias": "F" }
       ]
     },
     {
       "id": 5,
-      "question": "Você odeia aquele que não pode ser pronunciado ?",
+      "question": "Você vê sua esposa sendo CACETADA, o que você faz ? 👨‍💼",
       "options": [
-        { "id": 1, "name": "Odeio", "alias": ["A", "B", "E"] },
-        { "id": 2, "name": "Não odeio", "alias": ["D", "C"] }
+        { "id": 1, "name": "Participo e mando um a 3.", "alias": ["D", "F", "C"] },
+        { "id": 2, "name": "Desmaio o cara e como ele.", "alias": "E" },
+        { "id": 3, "name": "Fico na minha.", "alias": ["D", "D", "D"] },
+        { "id": 4, "name": "Faço nada e vou embora solteiro", "alias": ["A", "B"] }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Qual tipo de mulher mais SAFADA ? 🤷‍♀️",
+      "options": [
+        { "id": 1, "name": "Morena", "alias": ["A", "D"] },
+        { "id": 2, "name": "Ruiva", "alias": ["B", "E"] },
+        { "id": 3, "name": "Loira", "alias": "A" },
+        { "id": 4, "name": "Cacheada", "alias": "F" },
+        { "id": 5, "name": "Morena Gótica / E-girl", "alias": ["E", "D", "C"] },
+        { "id": 6, "name": "Careca kkkkkkkk", "alias": ["X", "X", "X", "X", "X"] }
       ]
     }
   ],
   "results": {
     "A": {
       "text": "Você é um amigo meu chamado Biri!",
-      "image": "assets/imgs/biri.png"
+      "image": "assets/imgs/biri.png",
+      "description": "Ri de tudo e gosta de atiçar 😂"
     },
     "B": {
       "text": "Você é um amigo meu chamado Gian!",
-      "image": "assets/imgs/gian.png"
+      "image": "assets/imgs/gian.png",
+      "description": "É sapo e gosta de comer casada 🐸"
     },
     "C": {
       "text": "Você é um amigo meu chamado Bryan!",
-      "image": "assets/imgs/bryan.png"
+      "image": "assets/imgs/bryan.png",
+      "description": "Vai ser pai esse ano kkkkkkkk 🤰"
     },
     "D": {
       "text": "Você é um amigo meu chamado Vini!",
-      "image": "assets/imgs/vini.png"
+      "image": "assets/imgs/vini.png",
+      "description": "Gosta de ex dos primos 😏"
     },
     "E": {
       "text": "Você é um amigo meu chamado Guigas!",
-      "image": "assets/imgs/guigas.png"
+      "image": "assets/imgs/guigas.png",
+      "description": "Tem tesão a todo momento 🤤"
+    },
+    "F": {
+      "text": "Você é um amigo meu chamado Zé!",
+      "image": "assets/imgs/ze.png",
+      "description": "Falar que você não joga bem 👍  Falar que é frango 😡"
+    },
+    "X": {
+      "text": "Você não é amigo meu. Você é o que não pode ser pronunciado.",
+      "image": "https://i.ytimg.com/vi/SzFY06p_KDU/sddefault.jpg",
+      "description": "Morra miserável 🖕"
     }
   }
 }
